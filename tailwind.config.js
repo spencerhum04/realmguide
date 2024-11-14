@@ -13,6 +13,8 @@ export default {
       colors: {
         'stone-gray': '#8494A9',
         'blood-red': '#B81E1E',
+        'light-sand': '#F7F5F2',
+        'exalt-blue': '#1E3A6C',
       },
     },
   },
