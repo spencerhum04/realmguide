@@ -15,6 +15,7 @@ export default {
         'blood-red': '#B81E1E',
         'light-sand': '#F7F5F2',
         'exalt-blue': '#1E3A6C',
+        'exalt-gray': '#2E2E2E',
       },
     },
   },
