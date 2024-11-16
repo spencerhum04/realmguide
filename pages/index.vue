@@ -108,14 +108,14 @@
         <div class="flex flex-col items-center gap-y-16 bg-light-sand w-full min-h-screen justify-center py-10">
             <div class="text-5xl font-semibold">Discover What's New</div>
             <div class="flex flex-wrap gap-6 pt-4">
-                <a
+                <NuxtLink
                     v-for="(blog) in blogs"
                     :href="blog.link"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="bg-white p-2.5 rounded-2xl w-[22rem] h-[29rem] flex flex-col"
                 >
-                    <img :src="blog.image" class="rounded-lg bg-slate-300 w-[22rem] h-40" />
+                    <NuxtImg :src="blog.image" class="rounded-lg bg-slate-300 w-[22rem] h-40" />
                     <div class="flex flex-col px-4 justify-between h-full">
                         <div class="flex flex-col">
                             <div class="flex flex-row items-center justify-between text-sm font-semibold text-slate-700 py-4">
@@ -127,13 +127,13 @@
                         </div>
                         <div class="font-medium underline pb-5">Read Blog</div>
                     </div>
-                </a>
+                </NuxtLink>
             </div>
-            <a
+            <NuxtLink
                 :href="'https://remaster.realmofthemadgod.com/?page_id=15'"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="text-blood-red font-medium hover:underline cursor-pointer">View more resources</a>
+                class="text-blood-red font-medium hover:underline cursor-pointer">View more resources</NuxtLink>
         </div>
         
     </div>
