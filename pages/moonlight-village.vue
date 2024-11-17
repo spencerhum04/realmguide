@@ -1,3 +1,3 @@
 <template>
-    <div>Moonlight Village</div>
+  <div>Moonlight Village</div>
 </template>
