@@ -55,7 +55,7 @@
         { potion: "/potion-dexterity.png", dungeon1: "/dungeon-the-nest.png", boss1: "/enemy-killer-bee-queen.png", dungeon2: "/dungeon-the-advanced-nest.png", boss2: "/enemy-killer-bee-queen.png" },
         { potion: "/potion-vitality.png", dungeon1: "/dungeon-kogbold-steamworks.png", boss1: "/enemy-factory-control-core.png", dungeon2: "/dungeon-advanced-kogbold-steamworks.png", boss2: "/enemy-factory-control-core.png" },
         { potion: "/potion-wisdom.png", dungeon1: "/dungeon-fungal-cavern.png", boss1: "/enemy-crystal-worm-mother.png", dungeon2: "/dungeon-crystal-cavern.png", boss2: "/enemy-crystal-entity.png" },
-        { potion: "/potion-life.png", dungeon1: "/dungeon-oryxs-sanctuary.png", boss1: "/enemy-oryx-3.png", dungeon2: "/dungeon-moonlight-village.png", boss2: "/enemy-sage-genji.png", dungeon3: "/dungeon-the-shatters.png", boss3: "/enemy-the-forgotten-king.png", },
+        { potion: "/potion-life.png", dungeon1: "/dungeon-oryxs-sanctuary.png", boss1: "/enemy-oryx-the-mad-god-3.png", dungeon2: "/dungeon-moonlight-village.png", boss2: "/enemy-sage-genji.png", dungeon3: "/dungeon-the-shatters.png", boss3: "/enemy-the-forgotten-king.png", },
         { potion: "/potion-mana.png", dungeon1: "/dungeon-the-void.png", boss1: "/enemy-void-entity.png", dungeon2: "/dungeon-moonlight-village.png", boss2: "/enemy-drummer-kaguya.png", dungeon3: "/dungeon-the-shatters.png", boss3: "/enemy-the-forgotten-king.png" },
     ]
 </script>
@@ -66,7 +66,7 @@
 
         <div class="flex flex-col items-center justify-center min-h-screen gap-y-2.5 text-center py-10">
             <div class="text-2xl font-bold text-blood-red uppercase">Realm<span class="text-stone-gray">Guide</span></div>
-            <div class="text-4xl font-semibold">The Path to Exaltation</div>
+            <div class="text-4xl font-semibold">Boss Guides for Exalt Dungeons</div>
             <div class="flex flex-wrap gap-4 items-center pt-4">
                 <router-link
                     v-for="(dungeon) in dungeons"
